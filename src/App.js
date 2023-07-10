@@ -1,10 +1,17 @@
-import "./styles.css";
+import React from "react";
+//IMPORT COMPONENTS
+import Heading from "./Heading";
+import SubHeading from "./SubHeading";
+import LuckyNumber from "./LuckyNumber";
 
-export default function App() {
+function App() {
   return (
-    <div className="App">
-      <h1>Hello CodeSandbox</h1>
-      <h2>Start editing to see some magic happen!</h2>
+    <div>
+      <Heading />
+      <SubHeading />
+      <LuckyNumber />
     </div>
   );
 }
+
+export default App;
